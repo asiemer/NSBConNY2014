@@ -13,8 +13,8 @@ namespace Automation
 
         public PlaceOrders()
         {
-            _drones = 10;
-            _ordersPerDrone = 200;
+            _drones = 5;
+            _ordersPerDrone = 10;
         }
         [Test]
         public void PlaceOrder()
